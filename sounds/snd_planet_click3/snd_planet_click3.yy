@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_planet_click3",
+  "audioGroupId":{
+    "name":"Sounds",
+    "path":"audiogroups/Sounds",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.326417,
+  "name":"snd_planet_click3",
+  "parent":{
+    "name":"SNd",
+    "path":"folders/Sounds/SNd.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_planet_click3.wav",
+  "type":0,
+  "volume":1.0,
+}

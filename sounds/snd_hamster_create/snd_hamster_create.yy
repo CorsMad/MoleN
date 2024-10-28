@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_hamster_create",
+  "audioGroupId":{
+    "name":"Sounds",
+    "path":"audiogroups/Sounds",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.571066,
+  "name":"snd_hamster_create",
+  "parent":{
+    "name":"SNd",
+    "path":"folders/Sounds/SNd.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_hamster_create.wav",
+  "type":0,
+  "volume":0.3,
+}

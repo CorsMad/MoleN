@@ -1,10 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+if audio_play_sound(snd_hamster_create,10,false) {
+	audio_stop_sound(snd_hamster_create);	
+	audio_play_sound(snd_hamster_create,10,false)
+}
+stars_t = 0 
+brightness = 0;
+image_xscale = 0.25;
+image_yscale = 0.25;
 col = $e834ed
 working = 1;
 //объекты для мерджа
-merge_object = obj_hamster2;
+merge_object = obj_hamster10;
 merge_result = obj_hamster3;
 
 mutation = 10;

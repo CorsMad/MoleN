@@ -37,6 +37,9 @@
     "name":"spr_hamster_pic_8",
     "path":"sprites/spr_hamster_pic_8/spr_hamster_pic_8.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_hamster",
+    "path":"sprites/spr_hamster/spr_hamster.yy",
+  },
   "visible":true,
 }

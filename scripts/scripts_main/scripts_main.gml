@@ -47,8 +47,10 @@ function merge_scr(merge_object,merge_result,mutation){
 				dust.image_index = 4;
 				dust.sprite_index = spr_warp;
 				//dust.image_blend = c_fuchsia;
-				dust.image_xscale = 0.25;
-				dust.image_yscale = 0.25;
+				dust.image_xscale = 0.75;
+				dust.image_yscale = 0.75;
+
+
 				dust.image_speed = 3;
 				dust.image_angle = 0;
 				
@@ -101,6 +103,16 @@ function fnc_total_income(){
 }
 	
 function hmstr_main(){
+	if (place_meeting(x,y,merge_object) && obj_score.mutation >= mutation) {
+	brightness = 0.7;
+	if stars_t = 0 instance_create_depth(x,y,depth-50,obj_merge_star)
+	
+	} else brightness = 0;
+
+	stars_t++ 
+	if stars_t = 20 stars_t=0;
+	
+	
 	if image_alpha < 1 t_alpha++;
 	if t_alpha > 10 && image_alpha < 1 image_alpha+=0.1;
 	if working = 1{

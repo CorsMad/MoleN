@@ -3,3 +3,4 @@
 hmstr_main();
 
 merge_scr(obj_hamster5,obj_hamster6,mutation);
+

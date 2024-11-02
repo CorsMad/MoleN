@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-audio_play_sound(snd_hamster_create,10,false);
+if audio_play_sound(snd_hamster_create,10,false) {
+	audio_stop_sound(snd_hamster_create);	
+	audio_play_sound(snd_hamster_create,10,false)
+}
+brightness = 0;
 col = $77ed34
 working = 1;
 //объекты для мерджа
@@ -22,6 +26,9 @@ prev_mouse_x = mouse_x;
 prev_mouse_y = mouse_y;
 
 instance_create_depth(x,y,depth,obj_portal_appear);
+image_speed = 0;
+stars_t = 0 
+
 image_alpha = 0;
 t_alpha = 0;
 

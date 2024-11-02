@@ -1,9 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-scale = 1;
+scale = 0.25;
 turn = choose(-1,1);
 image_speed = 0;
 image_index = 0;
+
+image_xscale = 0.25;
+image_yscale = 0.25;
 
 audio_play_sound(snd_sell,10,false);
 var coins = irandom_range(8,14);

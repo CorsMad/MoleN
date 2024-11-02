@@ -26,6 +26,8 @@
     {"name":"inst_5ADF8673","path":"rooms/GameRoom/GameRoom.yy",},
     {"name":"inst_2840BB69","path":"rooms/GameRoom/GameRoom.yy",},
     {"name":"inst_76E1AFC6","path":"rooms/GameRoom/GameRoom.yy",},
+    {"name":"inst_41ACE3C","path":"rooms/GameRoom/GameRoom.yy",},
+    {"name":"inst_2551BFCC","path":"rooms/GameRoom/GameRoom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -49,6 +51,8 @@
         {"$GMRInstance":"v1","%Name":"inst_5ADF8673","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5ADF8673","objectId":{"name":"obj_button_showFullscreenAds","path":"objects/obj_button_showFullscreenAds/obj_button_showFullscreenAds.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-272.0,"y":688.0,},
         {"$GMRInstance":"v1","%Name":"inst_2840BB69","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2840BB69","objectId":{"name":"obj_sound_onoff","path":"objects/obj_sound_onoff/obj_sound_onoff.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.9117645,"scaleY":1.9117645,"x":240.0,"y":24.0,},
         {"$GMRInstance":"v1","%Name":"inst_76E1AFC6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_76E1AFC6","objectId":{"name":"obj_music_onoff","path":"objects/obj_music_onoff/obj_music_onoff.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.9117645,"scaleY":1.9117645,"x":32.0,"y":24.0,},
+        {"$GMRInstance":"v1","%Name":"inst_41ACE3C","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_41ACE3C","objectId":{"name":"obj_blur","path":"objects/obj_blur/obj_blur.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1088.0,"y":0.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2551BFCC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2551BFCC","objectId":{"name":"obj_endgame","path":"objects/obj_endgame/obj_endgame.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.202177,"scaleY":2.202177,"x":1616.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_435FABE5","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_435FABE5","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.4062501,"scaleY":1.5177585,"spriteId":{"name":"spr_steelplate","path":"sprites/spr_steelplate/spr_steelplate.yy",},"x":0.0,"y":0.0,},

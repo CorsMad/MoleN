@@ -2,8 +2,6 @@
 // You can write your code in this editor
 brightness = 0;
 
-
-
 col = $aeed34
 working = 1;
 show = 0;

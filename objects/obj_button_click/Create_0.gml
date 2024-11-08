@@ -8,3 +8,6 @@ h1_price = 100;
 h1_price_n = 0;
 image_speed = 0;
 yn_offset = 4;
+
+
+// ЧТО СОХРАНИТЬ

@@ -4,7 +4,7 @@
 is_dragging = false;
 sell_price = 0;
 
-score_n = 166460022222222200;
+score_n = 999999999998;
 layer_lvl = 1;
 
 bonus_multiplier = 0.10;

@@ -15,6 +15,13 @@ if activated = 1 {
 	if vspd < 30 vspd+=0.03
 	y+=vspd+offsety;	
 	x = 1552+offsetx;
+	
+	t_chunk++;
+	if t_chunk = 5 {
+		instance_create_depth(x+35,y,depth-1,obj_chunk);
+		t_chunk = 0;
+	}
 }
+
 
 

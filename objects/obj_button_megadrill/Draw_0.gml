@@ -7,12 +7,10 @@ draw_set_halign(fa_center);
 //draw_text(x,y-64,string(h1_price[h1_price_n]));
 //draw_text(x,y-52,"добавить место");
 
-if activated {
-	scr_txt_transform(x+492,y+38,"мегабур активирован!",4,4,c_red);
-} else {
+
 	scr_txt_transform(x+492,y+40,"мегабур к центру планеты!",2,2,c_aqua);
 	scr_txt_transform(x+492,y+116,"999.999.999.999",2,2,c_aqua);
-}
+
 
 
 

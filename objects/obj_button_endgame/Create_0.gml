@@ -1,11 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+image_speed = 0;
+image_index = 1;
+alpha = 0;
 activated = 0;
-vspd = 0;
-t =0 ;
+alpha_bl = 0;
+end_t= 0;
 
-offset_t = 0;
-offsety = 0;
-offsetx = 0;
 
-t_chunk = 0;
+

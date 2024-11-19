@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+name = object_get_name(object_index);
 if audio_play_sound(snd_hamster_create,10,false) {
 	audio_stop_sound(snd_hamster_create);	
 	audio_play_sound(snd_hamster_create,10,false)

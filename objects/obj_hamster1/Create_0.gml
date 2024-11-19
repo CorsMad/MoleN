@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 brightness = 0;
-
+name = object_get_name(object_index);
 col = $aeed34
 working = 1;
 show = 0;

@@ -4,3 +4,4 @@
 image_speed = 0;
 
 turn = 1;
+image_index = 1;

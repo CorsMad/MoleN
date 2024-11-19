@@ -26,6 +26,7 @@ start_lvl = 1;
 
 //spawn_level = 0;
 
+// СОЗДАНИЕ СТАРТОВЫХ МЕСТ
 
 for (var i = 0 ; i < 4; i++) {	
     starter_place[i] = false;

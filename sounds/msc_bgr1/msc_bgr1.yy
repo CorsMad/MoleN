@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":48.0,
+  "duration":90.35295,
   "name":"msc_bgr1",
   "parent":{
     "name":"MSC",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"msc_bgr1.wav",
+  "soundFile":"msc_bgr1.ogg",
   "type":0,
-  "volume":0.3,
+  "volume":1.0,
 }

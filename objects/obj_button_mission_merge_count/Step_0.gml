@@ -14,7 +14,7 @@ image_index = activated;
 if obj_cursor.holding_hamster = 0 {
 	
 	if collision_point( mouse_x, mouse_y, self, false, false ) 
-	&& mouse_check_button_pressed(mb_left) && activated = 1{
+	&& mouse_check_button_pressed(mb_left) && activated = 1 && on_off = 1{
 		if ad_counter < 3 {
 			ad_counter++ 
 			get_reward_merge()

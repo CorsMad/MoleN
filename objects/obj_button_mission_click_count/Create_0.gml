@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+on_off = 1;
 activated = 0;
 image_speed = 0;
 click_current = 0;

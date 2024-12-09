@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 Save = function() {
-	
+	var enemy;
 	#region Ззапись кротов
 		
 		///// ЗАПИСАТЬ SELL PRICE, POSITION , ТЕКУЩИЙ XY, 
@@ -63,16 +63,22 @@ Save = function() {
 		#region Запись OBJ_BUTTON_MISSION_CLICK_COUNT
 			obj_button_mission_click_count__click_current     :    obj_button_mission_click_count.click_current,
 			obj_button_mission_click_count__ad_counter        :    obj_button_mission_click_count.ad_counter,
+			obj_button_mission_click_count__current_bonus     :    obj_button_mission_click_count.current_bonus,
+			obj_button_mission_click_count__click_max         :    obj_button_mission_click_count.click_max,
 		#endregion
 		
 		#region Запись OBJ_BUTTON_MISSION_MERGE_COUNT
-			obj_button_mission_merge_count__merge_current  :    obj_button_mission_merge_count.merge_current,
-			obj_button_mission_merge_count__ad_counter     :    obj_button_mission_merge_count.ad_counter,
+			obj_button_mission_merge_count__merge_current     :    obj_button_mission_merge_count.merge_current,
+			obj_button_mission_merge_count__ad_counter        :    obj_button_mission_merge_count.ad_counter,
+			obj_button_mission_merge_count__merge_max         :    obj_button_mission_merge_count.merge_max,
+			obj_button_mission_merge_count__current_bonus     :    obj_button_mission_merge_count.current_bonus,
 		#endregion
 		
 		#region Запись OBJ_BUTTON_MISSION_PLANET_LAYER
 			obj_button_mission_planet_layer__layer_current   :    obj_button_mission_planet_layer.layer_current,
 			obj_button_mission_planet_layer__ad_counter      :    obj_button_mission_planet_layer.ad_counter,
+			obj_button_mission_planet_layer__layer_max       :    obj_button_mission_planet_layer.layer_max,
+			obj_button_mission_planet_layer__current_bonus   :    obj_button_mission_planet_layer.current_bonus,
 		#endregion
 		
 		#region Запись всех кротов
@@ -139,16 +145,22 @@ Load = function() {
 	#region Загрузка OBJ_BUTTON_MISSION_CLICK_COUNT
 		obj_button_mission_click_count.click_current  = _rootStructure.obj_button_mission_click_count__click_current;
 		obj_button_mission_click_count.ad_counter	  = _rootStructure.obj_button_mission_click_count__ad_counter   ;
+		obj_button_mission_click_count.current_bonus  = _rootStructure.obj_button_mission_click_count__current_bonus;
+		obj_button_mission_click_count.click_max	  = _rootStructure.obj_button_mission_click_count__click_max    ;
 	#endregion
 	
 	#region Загрузка OBJ_BUTTON_MISSION_MERGE_COUNT
 		obj_button_mission_merge_count.merge_current   = _rootStructure.obj_button_mission_merge_count__merge_current;
 		obj_button_mission_merge_count.ad_counter	   = _rootStructure.obj_button_mission_merge_count__ad_counter;
+		obj_button_mission_merge_count.merge_max       = _rootStructure.obj_button_mission_merge_count__merge_max;
+		obj_button_mission_merge_count.current_bonus   = _rootStructure.obj_button_mission_merge_count__current_bonus;
 	#endregion
 	
 	#region Загрузка OBJ_BUTTON_MISSION_PLANET_LAYER
 		obj_button_mission_planet_layer.layer_current  = _rootStructure.obj_button_mission_planet_layer__layer_current;
 		obj_button_mission_planet_layer.ad_counter	   = _rootStructure.obj_button_mission_planet_layer__ad_counter	  ;
+		obj_button_mission_planet_layer.layer_max 	   = _rootStructure.obj_button_mission_planet_layer__layer_max    ;  
+		obj_button_mission_planet_layer.current_bonus  = _rootStructure.obj_button_mission_planet_layer__current_bonus;
 	#endregion
 	
 	#region Загрузка кротов
@@ -165,8 +177,9 @@ Load = function() {
 	}
 	
 	show_debug_message(_rootStructure.obj_hamster);
-	
+	fnc_total_income();
 	#endregion
 	
 }
 	
+t = 0;

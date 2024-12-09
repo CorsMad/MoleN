@@ -1,10 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+activated = 1;
 
 is_dragging = false;
 sell_price = 0;
 
-score_n = 999999999998;
+score_n = 0;
 layer_lvl = 1;
 
 bonus_multiplier = 0.10;

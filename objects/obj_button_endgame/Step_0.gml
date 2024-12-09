@@ -6,7 +6,9 @@ if activated = 1 {
 if collision_point( mouse_x, mouse_y, self, false, false ) 
 	&& mouse_check_button_pressed(mb_left) && activated = 2 {
 		activated = 3;
+		audio_stop_sound(msc_endscreen);
 		audio_play_sound(snd_button_mission_success,10,false);
+		if file_exists("GSave") file_delete("GSave");
 	}
 	
 if activated = 3{

@@ -10,21 +10,24 @@ if (not isMap(async_load)) {
         switch (async_load[? "event"]) {	
 			
             case YaGames_CallRewardOpened:
-				turn_off(0);
+				button_on_off(0);
+				var _ad = instance_create_depth(0,0,-15500,obj_fsad_screen);
+				_ad.t = 241;
             break;
             case YaGames_CallRewardReceived:
                 // The video ads has been successfully completed. The reward has been received.
-				turn_off(1);
 				ad_counter = 1;
 				get_reward_click_count();
+				// звук
+				audio_play_sound(snd_button_mission_success,10,false);
+				instance_create_depth(x,y,depth-1,obj_button_effect_complete);
+				obj_FSAD.t = 4500;
             break;
             case YaGames_CallRewardClosed:
-				turn_off(1);
-                // The video ads is closed
             break;
             case YaGames_CallRewardError:
 				// Error displaying video ads
-				turn_off(1);
+				button_on_off(1);
                 var errCode = async_load[? "code"];
                 var errName = async_load[? "name"];
                 var errMessage = async_load[? "message"];			
@@ -32,16 +35,17 @@ if (not isMap(async_load)) {
             break;
 			
             case YaGames_CallNotInitSDK:
-				// SDK not initialized
-				turn_off(1);
+				// SDK not initialized				
 				ad_counter = 1;
                 get_reward_click_count();
+				// звук
+				audio_play_sound(snd_button_mission_success,10,false);
+				instance_create_depth(x,y,depth-1,obj_button_effect_complete);
             break;
             case YaGames_CallRuntimeError:
 				// SDK runtime error
 				ad_counter = 1;
-				get_reward_click_count();
-				turn_off(1);
+				get_reward_click_count();				
                 var errCode = async_load[? "code"];
                 var errName = async_load[? "name"];
                 var errMessage = async_load[? "message"];	

@@ -6,7 +6,7 @@ if activated = 1 image_index = 0 else image_index = 1;
 if obj_cursor.holding_hamster = 0 {
 	
 	if collision_point( mouse_x, mouse_y, self, false, false ) 
-	&& mouse_check_button_pressed(mb_left) && activated = 0{
+	&& mouse_check_button_pressed(mb_left) && activated = 0 && on_off = 1{
 		
 		req_id = YaGames_showRewardedVideo();
 		

@@ -27,7 +27,8 @@ hamster_count = instance_number(obj_hamster_master);
 if obj_cursor.holding_hamster = 0 {
 	
 	if collision_point( mouse_x, mouse_y, self, false, false ) 
-	&& mouse_check_button_pressed(mb_left) && obj_score.score_n >= h1_price{
+	&& mouse_check_button_pressed(mb_left) && obj_score.score_n >= h1_price &&
+	activated = 1{
 		for (var i = 0 ; i < array_length(obj_score.starter_place) ; i++;) {
 		    if obj_score.starter_place[i] == false {
 				//спавн хомяка
@@ -66,7 +67,8 @@ if obj_cursor.holding_hamster = 0 {
 				
 				//добавление в тотал инком
 				fnc_total_income();
-				
+				//СОХРАНЕНИЕ
+				with(obj_save_manager) Save();
 				//удаление позиции
 				obj_score.starter_place[i] = true;
 				show_debug_message(obj_score.starter_place);

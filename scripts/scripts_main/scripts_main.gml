@@ -63,7 +63,8 @@ function merge_scr(merge_object,merge_result,mutation){
 				if obj_button_mission_merge_count.merge_current < obj_button_mission_merge_count.merge_max {
 					obj_button_mission_merge_count.merge_current+=1;	
 				}
-				
+				//Сохранения
+				with(obj_save_manager) Save();
 			} else if point_in_rectangle(x,y,14+1080,16,14+519+1080,16+184) {
 					obj_score.starter_place[position] = false;
 					obj_score.is_dragging = 0;
@@ -72,6 +73,8 @@ function merge_scr(merge_object,merge_result,mutation){
 					var sell = instance_create_depth(x,y,depth,obj_hamster_sell);
 					sell.sprite_index = sprite_index;
 					fnc_total_income();
+					//Сохранения
+					with(obj_save_manager) Save();
 				} else {
 					obj_score.starter_place[position] = true;
 					obj_score.is_dragging = 0;

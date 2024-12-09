@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"msc_endscreen",
+  "audioGroupId":{
+    "name":"Music",
+    "path":"audiogroups/Music",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":128.00002,
+  "name":"msc_endscreen",
+  "parent":{
+    "name":"MSC",
+    "path":"folders/Sounds/MSC.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"msc_endscreen.wav",
+  "type":0,
+  "volume":1.0,
+}

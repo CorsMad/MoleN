@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+activated = 1;
 image_speed = 0;
 yn_offset = 4;
 h1_count = 0;

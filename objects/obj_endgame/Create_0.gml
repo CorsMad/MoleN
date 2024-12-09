@@ -9,3 +9,5 @@ offsety = 0;
 offsetx = 0;
 
 t_chunk = 0;
+
+t_sound = 0;

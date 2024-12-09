@@ -21,7 +21,14 @@ if activated = 1 {
 		instance_create_depth(x+35,y,depth-1,obj_chunk);
 		t_chunk = 0;
 	}
+	
+	t_sound++;
+	if t_sound = 10 {
+		t_sound = 0;
+		audio_play_sound(choose(snd_planet_click1,snd_planet_click2,snd_planet_click3,snd_planet_click4,snd_planet_click5),11,false);
+	}
 }
 
+//Звук
 
 

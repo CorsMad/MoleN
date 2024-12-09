@@ -6,7 +6,7 @@ if obj_score.score_n >= cost image_index = 1 else image_index = 0;
 if obj_cursor.holding_hamster = 0 {
 	
 	if collision_point( mouse_x, mouse_y, self, false, false ) 
-	&& mouse_check_button_pressed(mb_left) && activated = 0 && cost <= obj_score.score_n{
+	&& mouse_check_button_pressed(mb_left) && activated = 1 && cost <= obj_score.score_n {
 		
 		audio_play_sound(snd_button_mission_success,10,false);
 		
@@ -46,8 +46,9 @@ if obj_cursor.holding_hamster = 0 {
 		
 		
 		
-		
-		obj_endgame.activated = 1;
+		room_goto(PreEndRoom);
+		//obj_endgame.activated = 1;
+		audio_stop_sound(msc_bgr1);
 		instance_destroy();
 	}
 }

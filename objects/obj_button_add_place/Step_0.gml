@@ -13,8 +13,9 @@ if obj_cursor.holding_hamster = 0 {
 	
 	if collision_point( mouse_x, mouse_y, self, false, false ) 
 	&& mouse_check_button_pressed(mb_left) && obj_score.score_n >= h1_price[h1_price_n] 
-	&& array_length(obj_score.starter_place) < 12 {		
-		
+	&& array_length(obj_score.starter_place) < 12 && activated = 1 {		
+		//СОХРАНЕНИЕ
+		with(obj_save_manager) Save();
 		audio_play_sound(snd_buy,10,false);
 		obj_score.score_n -=h1_price[h1_price_n];		
 		h1_price_n +=1;	

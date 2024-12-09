@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+activated = 1;
 yn_offset = 4;
 h1_count = 0;
 price_col = c_red;

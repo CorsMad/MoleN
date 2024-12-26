@@ -7,7 +7,7 @@
 
 	// цвет
 	if obj_score.score_n >= h1_price && obj_score.cursor_lvl < 30 {
-		image_index	= 1;
+		if collision_point( mouse_x, mouse_y, self, false, false ) image_index	= 2; else image_index = 1		
 	} else image_index = 0;
 
 

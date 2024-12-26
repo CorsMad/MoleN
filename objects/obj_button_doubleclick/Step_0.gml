@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if activated = 1 image_index = 0 else image_index = 1;
+if activated = 1 image_index = 0 else {
+	if collision_point( mouse_x, mouse_y, self, false, false ) image_index	= 2; else image_index = 1		
+}
 
 if obj_cursor.holding_hamster = 0 {
 	

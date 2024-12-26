@@ -2,8 +2,8 @@
 // You can write your code in this editor
 if t < 245 t++;
 switch(t){
-	case 60 :number = 2;break;
-	case 120:number = 1;break;
+	case 60 :number = 1;break;
+	case 120:number = 0;break;
 	case 180:number = 0;break;
 	case 240:		
 		instance_create_depth(0,0,0,obj_button_showFullscreenAds);			

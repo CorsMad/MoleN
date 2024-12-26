@@ -198,6 +198,7 @@
     {"name":"spr_tutor","order":27,"path":"sprites/spr_tutor/spr_tutor.yy",},
     {"name":"spr_ui_bottom_bgr","order":3,"path":"sprites/spr_ui_bottom_bgr/spr_ui_bottom_bgr.yy",},
     {"name":"spr_ui_bottom","order":1,"path":"sprites/spr_ui_bottom/spr_ui_bottom.yy",},
+    {"name":"spr_ui_store_button_dual","order":8,"path":"sprites/spr_ui_store_button_dual/spr_ui_store_button_dual.yy",},
     {"name":"spr_ui_store_button_effect","order":6,"path":"sprites/spr_ui_store_button_effect/spr_ui_store_button_effect.yy",},
     {"name":"spr_ui_store_button","order":4,"path":"sprites/spr_ui_store_button/spr_ui_store_button.yy",},
     {"name":"spr_ui_topsale","order":7,"path":"sprites/spr_ui_topsale/spr_ui_topsale.yy",},

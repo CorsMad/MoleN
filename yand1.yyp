@@ -55,7 +55,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"yand1",
   "resources":[
@@ -245,6 +245,7 @@
     {"id":{"name":"spr_tutor","path":"sprites/spr_tutor/spr_tutor.yy",},},
     {"id":{"name":"spr_ui_bottom_bgr","path":"sprites/spr_ui_bottom_bgr/spr_ui_bottom_bgr.yy",},},
     {"id":{"name":"spr_ui_bottom","path":"sprites/spr_ui_bottom/spr_ui_bottom.yy",},},
+    {"id":{"name":"spr_ui_store_button_dual","path":"sprites/spr_ui_store_button_dual/spr_ui_store_button_dual.yy",},},
     {"id":{"name":"spr_ui_store_button_effect","path":"sprites/spr_ui_store_button_effect/spr_ui_store_button_effect.yy",},},
     {"id":{"name":"spr_ui_store_button","path":"sprites/spr_ui_store_button/spr_ui_store_button.yy",},},
     {"id":{"name":"spr_ui_topsale","path":"sprites/spr_ui_topsale/spr_ui_topsale.yy",},},

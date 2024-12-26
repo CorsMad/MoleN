@@ -12,3 +12,6 @@ current_bonus = 0;
 
 alpha = 0.5;
 alpha_pos = 1;
+
+current_bonus_b = 0;
+current_bonus_s = 0;

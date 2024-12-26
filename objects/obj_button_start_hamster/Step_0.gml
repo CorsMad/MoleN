@@ -5,7 +5,7 @@ if obj_score.score_n >= h1_price[h1_price_n] price_col = c_lime else price_col =
 
 //image
 if obj_score.score_n >= h1_price[h1_price_n] && obj_score.start_lvl < 12 && obj_score.mutation+1 > obj_score.start_lvl {
-	image_index = 1;
+	if collision_point( mouse_x, mouse_y, self, false, false ) image_index	= 2; else image_index = 1		
 } else image_index = 0;
 
 

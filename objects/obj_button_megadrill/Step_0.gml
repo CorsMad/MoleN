@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if obj_score.score_n >= cost image_index = 1 else image_index = 0;
+if obj_score.score_n >= cost {
+	if collision_point( mouse_x, mouse_y, self, false, false ) image_index	= 2; else image_index = 1		
+} else image_index = 0;
 
 if obj_cursor.holding_hamster = 0 {
 	

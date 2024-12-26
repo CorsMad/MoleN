@@ -16,10 +16,12 @@ draw_sprite_stretched(spr_planet_progress_bar,0,x+32,y+42,984-64,112)
 scr_txt_transform(x+984/2,y+64,"мерджей до бонуса " + string(merge_current) + " / " + string(merge_max),2,2,c_white);
 } else {
 	if ad_counter = 3{
-		scr_txt_transform(x+984/2,y+40,"получить - " + string(current_bonus),2,2,c_aqua);	
-		scr_txt_transform(x+984/2,y+110," + реклама",2,2,c_fuchsia);	
+		scr_txt_transform(x+984/2+246,y+40+8,string(current_bonus_b),1.5,1.5,c_aqua);	
+		scr_txt_transform(x+984/2+246,y+110,"с рекламой",2,2,c_fuchsia);	
+		scr_txt_transform(x+984/2-246,y+40+8,string(current_bonus_s),1.5,1.5,c_aqua);	
+		scr_txt_transform(x+984/2-246,y+110,"без рекламы",2,2,c_fuchsia);	
 	} else {
-		scr_txt_transform(x+984/2,y+70,"получить - " + string(current_bonus),2,2,c_aqua);	
+		scr_txt_transform(x+984/2,y+70,"получить - " + string(current_bonus_s),2,2,c_aqua);	
 	}
 	draw_sprite_ext(spr_check,0,x+940,y+60,0.5,0.5,0,c_white,alpha);
 }

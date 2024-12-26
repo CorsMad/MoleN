@@ -13,7 +13,9 @@ if obj_score.score_n >= h1_price {
 			}
 		if places >= array_length(obj_score.starter_place) {
 			image_index = 0;
-		} else image_index = 1;
+		} else {
+			if collision_point( mouse_x, mouse_y, self, false, false ) image_index	= 2; else image_index = 1			
+		}
 	}
 } else image_index = 0;
 

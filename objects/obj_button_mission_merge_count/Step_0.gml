@@ -54,6 +54,7 @@ if obj_cursor.holding_hamster = 0 {
 		if point_in_rectangle(mouse_x,mouse_y,x+984/2+4,y,x+984,y+210)	
 		&& mouse_check_button_pressed(mb_left) && activated = 1 && on_off = 1 {		
 			req_id = YaGames_showRewardedVideo();	
+            instance_create_depth(0,0,0,obj_yand_game_stop);
 		}
 		
 	}

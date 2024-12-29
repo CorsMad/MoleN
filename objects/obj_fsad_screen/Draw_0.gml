@@ -6,7 +6,7 @@ draw_set_color(c_black);
 draw_rectangle(0,0,room_width,room_height,false);
 draw_set_alpha(1);
 draw_set_halign(fa_center);
-if t < 240 {
+if t < 180 {
 	scr_txt_transform(room_width/2,room_height/2-32,"реклама через " + string(number),6,6,c_yellow);
 	//scr_txt_transform(room_width/2+410,room_height/2,number,6,6,c_yellow);
 } else {

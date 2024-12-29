@@ -12,11 +12,11 @@ if (not isMap(async_load)) {
             case YaGames_CallRewardOpened:
 				button_on_off(0);
 				var _ad = instance_create_depth(0,0,-15500,obj_fsad_screen);
-				_ad.t = 241;
+				_ad.t = 181;
             break;
             case YaGames_CallRewardReceived:
                 // The video ads has been successfully completed. The reward has been received.
-				//turn_off(1);				
+				//turn_off(1);	
 				activated = 1;
 				obj_score.t_sec = obj_score.t_sec_max;
 				
@@ -41,7 +41,7 @@ if (not isMap(async_load)) {
 				turn_off(1);
 				activated = 1;
 				obj_score.t_sec = obj_score.t_sec_max;
-				
+				instance_create_depth(0,0,0,obj_yand_game_start);
 				// звук
 				audio_play_sound(snd_button_mission_success,10,false);
 				instance_create_depth(x,y,depth-1,obj_button_effect_complete);
@@ -49,6 +49,7 @@ if (not isMap(async_load)) {
             break;
             case YaGames_CallRuntimeError:
 				// SDK runtime error
+            instance_create_depth(0,0,0,obj_yand_game_start);
 				button_on_off(1);
                 var errCode = async_load[? "code"];
                 var errName = async_load[? "name"];

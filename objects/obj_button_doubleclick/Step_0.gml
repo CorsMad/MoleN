@@ -9,9 +9,8 @@ if obj_cursor.holding_hamster = 0 {
 	
 	if collision_point( mouse_x, mouse_y, self, false, false ) 
 	&& mouse_check_button_pressed(mb_left) && activated = 0 && on_off = 1{
-		
+		instance_create_depth(0,0,0,obj_yand_game_stop);
 		req_id = YaGames_showRewardedVideo();
-		
 		//activated = 1;
 		//obj_score.t_sec = obj_score.t_sec_max;
 		//
